@@ -365,6 +365,8 @@ elif choice == 'Mô hình-Collaborative Filtering':
 ##### End
 
 elif choice == 'Phân Tích Xu Hướng':
+    st.subheader("Phân Tích Xu Hướng)")
+    st.write("-"*60)
     # Phân tích xu hướng: Chọn loại phân tích
     analysis_type = st.selectbox(
         "Chọn loại phân tích:",
@@ -457,8 +459,7 @@ elif choice == 'Phân Tích Xu Hướng':
         # Thông tin về vị trí địa lý và kinh tế
         info = {
             "Lộc Thọ": (
-                "Lộc Thọ là một trong những quận trung tâm của Nha Trang, gần các điểm du lịch nổi tiếng như bãi biển Nha Trang và các khu vực mua sắm, nhà hàng. "
-                "Vị trí thuận lợi này có thể thu hút nhiều khách sạn để phục vụ nhu cầu của du khách." ),
+                "Lộc Thọ là một trong những quận trung tâm của Nha Trang, gần các điểm du lịch nổi tiếng như bãi biển Nha Trang và các khu vực mua sắm, nhà hàng." ),
             "Vĩnh Phước": (
                 "Vĩnh Phước cũng gần bãi biển và các điểm du lịch khác. Khu vực này có thể là khu vực phát triển nhanh nếu đầu tư vào cơ sở hạ tầng du lịch"),
             "Cam Hải Đông": (
