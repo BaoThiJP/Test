@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+seaborn
+pickle5  
+underthesea
+scikit-learn
+surprise
