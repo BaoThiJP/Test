@@ -445,7 +445,7 @@ elif choice == 'Phân Tích Xu Hướng':
         # Hiển thị dữ liệu top 10 quận
         st.subheader("Top 10 Quận Có Số Lượng Khách Sạn Nhiều Nhất")
         st.write(df_top10_wards)
-        st.image("google.png", use_column_width=True)
+        st.image("google.png")
         # Hiển thị biểu đồ cột cho top 10 quận
         st.subheader("Biểu Đồ Top 10 Quận Theo Số Lượng Khách Sạn")
         fig, ax = plt.subplots(figsize=(12, 8))
