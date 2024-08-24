@@ -365,7 +365,7 @@ elif choice == 'Mô hình-Collaborative Filtering':
 ##### End
 
 elif choice == 'Phân Tích Xu Hướng':
-    st.subheader("Phân Tích Xu Hướng)")
+    st.subheader("Phân Tích Xu Hướng")
     st.write("-"*60)
     # Phân tích xu hướng: Chọn loại phân tích
     analysis_type = st.selectbox(
