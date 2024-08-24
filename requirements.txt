@@ -5,4 +5,6 @@ seaborn
 pickle5  
 underthesea
 scikit-learn
+scikit-surprise
+numpy==1.21.5
 surprise
