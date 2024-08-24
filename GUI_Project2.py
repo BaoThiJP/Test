@@ -370,11 +370,11 @@ elif choice == 'Phân Tích Xu Hướng':
     # Phân tích xu hướng: Chọn loại phân tích
     analysis_type = st.selectbox(
         "Chọn loại phân tích:",
-        ["Xu hướng theo Tháng", "Xu hướng du lịch theo quốc tịch", "Xu hướng Du lịch của Các Nhóm theo Năm","Phân bố Khách Sạn Theo Từng Quận"])
+        ["Xu hướng đánh giá theo tháng", "Xu hướng du lịch theo quốc tịch", "Xu hướng du lịch của các nhóm theo tháng","Phân bố Khách Sạn Theo Từng Quận"])
     # Chuyển đổi cột 'Total_Score' từ chuỗi sang số thực (float)
     df_hotel["Total_Score"] = pd.to_numeric(df_hotel["Total_Score"].str.replace(',', '.'), errors='coerce')
 
-    if analysis_type == "Xu hướng theo Tháng":
+    if analysis_type == "Xu hướng đánh giá theo tháng":
     # Chọn cột phân tích
         column = st.selectbox("Chọn cột để phân tích theo tháng:", 
                             ['Total_Score', 'Cleanliness', 'Service', 'Facilities', 'Value_for_money', 'Comfort_and_room_quality', 'Score'])
@@ -405,7 +405,7 @@ elif choice == 'Phân Tích Xu Hướng':
         ax.set_xlabel('Quốc Tịch')
         ax.set_ylabel('Số lượng đánh giá')
         st.pyplot(fig)
-    elif analysis_type == "Xu hướng Du lịch của Các Nhóm theo Năm":
+    elif analysis_type == "Xu hướng du lịch của các nhóm theo tháng":
         # Chọn cột phân tích
         # Tính số lượng nhóm theo tháng
         df_group_monthly_count = df_hotel.groupby(['Group Name', 'Month']).size().reset_index(name='Count')
