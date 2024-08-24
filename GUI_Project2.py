@@ -460,8 +460,8 @@ elif choice == 'Phân Tích Xu Hướng':
         info = {
             "Lộc Thọ": (
                 "Lộc Thọ là một trong những quận trung tâm của Nha Trang, gần các điểm du lịch nổi tiếng như bãi biển Nha Trang và các khu vực mua sắm, nhà hàng." ),
-            "Vĩnh Phước": (
-                "Vĩnh Phước cũng gần bãi biển và các điểm du lịch khác. Khu vực này có thể là khu vực phát triển nhanh nếu đầu tư vào cơ sở hạ tầng du lịch"),
+            "Tân Lập": (
+                "Tân Lập cũng gần bãi biển và các điểm du lịch khác. Khu vực này có thể là khu vực phát triển nhanh nếu đầu tư vào cơ sở hạ tầng du lịch"),
             "Cam Hải Đông": (
                 "Mặc dù không phải là trung tâm của Nha Trang, nếu phát triển các điểm du lịch ở khu vực này có thể trở nên hấp dẫn đối với các nhà đầu tư khách sạn.")}
 
